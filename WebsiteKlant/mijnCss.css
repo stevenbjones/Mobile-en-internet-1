@@ -21,7 +21,13 @@ background-size :cover;
       
 }
 
-
+p{
+  font-family: 'Aclonica';
+  font-size: 22px;
+  color :black;
+ font-weight: bold;
+       
+}
 
 h1{
 text-align: center;
