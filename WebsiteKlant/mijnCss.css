@@ -4,7 +4,9 @@ background-image: url(Fotos/background.jpg);
 background-attachment: fixed;
 background-position: center; 
 background-repeat: no-repeat;
-background-size :cover;   
+background-size :cover;  
+
+   
 }
 
 
@@ -30,6 +32,7 @@ p{
 }
 
 h1{
+margin-top: 5em;    
 text-align: center;
 }
 
@@ -84,5 +87,35 @@ body {font-family: Verdana,sans-serif;margin:0}
   animation-duration: 1.5s;
 }
 
+.kamers{
+    max-height: 20em;
+    margin-left: 5em;
+    margin-top: 5em;
+    border-radius: 8px;
+}
 
+#beschrijving{
+    
+    margin-left: 5em;
+}
 
+#keuken{
+    max-height: 40em;
+    margin-left: 25em;
+     border-radius: 8px;
+}
+
+#extra{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#textExtra{
+     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   font-size: 22px;
+    color: black;
+}
