@@ -126,13 +126,7 @@ body {
 
 }
 
-#beschrijving {
 
-    margin-left: 5em;
-    margin-right: 5em;
-    color: black;
-
-}
 
 #keuken {
     max-height: 40em;
@@ -156,10 +150,22 @@ h2 {
 	font-weight: 500;
 	line-height: 26.4px;
     position: center ;
+    text-align: center;
+    padding-top: 1em ;
    
-    margin-left: 30%;
+   
     
 }
+
+#beschrijving {
+
+    margin-left: 5em;
+    margin-right: 5em;
+    color: black;
+
+}
+
+
 
 #beschrijving2 img {
     max-width: 70%;
