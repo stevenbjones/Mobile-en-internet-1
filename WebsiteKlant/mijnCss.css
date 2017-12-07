@@ -162,6 +162,7 @@ h2 {
     margin-left: 5em;
     margin-right: 5em;
     color: black;
+    text-align: center;
 
 }
 
@@ -174,9 +175,27 @@ h2 {
     
 }
 
+#beschrijving {
+    max-width: 70%;
+    margin-left: 15%;
+    text-align: center;
+   
+    
+}
+
 #beschrijving2{
     background-color:bisque;
     margin-left: 25%;
     margin-right: 25%;
 }
 
+#contact{
+background-color: bisque;   
+    
+margin-left: 25% ;
+margin-right: 25%;
+height: 50em ;
+    
+    
+    
+}
