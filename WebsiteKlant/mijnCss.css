@@ -55,21 +55,19 @@ body {
 /* Slideshow container */
 
 .slideshow-container {
-  
-   /* max-width: 70%;*/
-   /* position: relative;*/
-    
+
+    /* max-width: 70%;*/
+    /* position: relative;*/
     margin-left: 10%;
-    
+
     /*margin: auto;*/
     margin-top: 5em;
 }
 
-.slideshow-container img
-{
+.slideshow-container img {
     width: 50%;
     margin-left: 40;
-    position: center ;
+    position: center;
 }
 
 
@@ -139,35 +137,38 @@ body {
     color: white;
 }
 
-#textExtra{
+#textExtra {
     list-style-type: none;
 }
+
 h2 {
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-	font-size: 50px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-	line-height: 26.4px;
-    position: center ;
+    font-size: 50px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26.4px;
     text-align: center;
-    padding-top: 1em ;
-   
-   
-    
+    padding-top: 1em;
+
+
+
 }
 
 .beschrijving {
 
-    
+
     margin-right: 5em;
     color: black;
     text-align: center;
-    
     max-width: 70%;
     margin-left: 15%;
-    
 
+}
+
+.beschrijving3 ul {
+
+    margin-left: 25%;
 }
 
 
@@ -175,24 +176,62 @@ h2 {
 .beschrijving2 img {
     max-width: 70%;
     margin-left: 15%;
-   
-    
+
+
 }
 
 
-.beschrijving2{
-    background-color:bisque;
+.beschrijving2 {
+    background-color: bisque;
     margin-left: 25%;
     margin-right: 25%;
 }
 
-#contact{
-background-color: bisque;   
+#contact {
+    background-color: bisque;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 50em;
+}
+
+#contact label {}
+
+#contact img {
+
+    margin-left: 25%;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#prijslijst {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding-top: 2em;
+}
+
+.laagseizoen {
+   text-align: center;
+}
+
+.laagseizoen img{
     
-margin-left: 25% ;
-margin-right: 25%;
-height: 50em ;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px; 
+    max-width: 2%;
+   
+}
+
+
+.hoogseizoen {
+   text-align: center;
+}
+.hoogseizoen img{
     
-    
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px; 
     
 }

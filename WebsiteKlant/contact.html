@@ -14,35 +14,39 @@
         <a class="navigatie" href=index.html>Home</a>
         <a class="navigatie" href="beschrijving.html">Beschrijving</a>
         <a class="navigatie" href="ligging.html">Ligging</a>
-        <a class="navigatie" href="#about">Prijslijst</a>
-        <a class="navigatie" href="#about">Foto album</a>
+        <a class="navigatie" href="prijslijst.html">Prijslijst</a>
         <a class="navigatie" href="contact.html">contact</a>
     </nav>
+    
+    
+    
+    <section id="contact">
 
-    
-    <div id="contact">
-        <h2> Contacteer ons</h2>
-        
-        mail
-        
-        <input type="text" name="Mail">
-        
+         <img src="Fotos/contact/contact.jpg">
+
         <form action="mail.php" method="post">
-       Onderwerp van gewenste mail:<br>
-  <input type="text" name="Onderwerp">
-  <br>
-  <br><br>
-      Het bericht      
-    <textarea rows="4" cols="50" name="Vraag">
-        </textarea>        
-            
-            
-  <input type="submit" value="Submit">
-</form> 
-    
-    
-    </div>
-    
+
+
+            <label>
+           <span>E-mail</span>
+           <input name="Email" type="email" placeholder="E-mail" required/>
+    </label> <br>
+            <label>
+          <span>Onderwerp</span>
+          <input name="Onderwerp" type='text' required/>
+    </label>
+            <br>
+            <label>
+                <span>text</span>
+                <textarea rows="4" cols="10" type='text' name="Vraag"> </textarea>
+    </label> <br>
+
+
+        </form>
+
+
+    </section>
+
 
 </body>
 
