@@ -7,10 +7,12 @@
     <title>Contact</title>
 </head>
  <script>
+     
 function testOpKnop()
 {
 alert("mail verzonden");
 }
+     
 </script>
 
 <body>
@@ -27,7 +29,7 @@ alert("mail verzonden");
 
     <section id="contact">
 
-        <img src="Fotos/contact/contact.jpg" id="fotoContact">
+        <img src="Fotos/contact/contact.jpg" id="fotoContact" alt="Het zwembad met bomen">
 
         <!-- mail.php werkt niet. -->
         <form method="post" id="contactform" action="mailto:steven.bjones@student.odisee.be">
@@ -44,12 +46,12 @@ alert("mail verzonden");
             <br>
             <label>
                 <span>Vraag</span>
-                <textarea rows="10" cols="50" type='text' id="Vraag"> </textarea>              
+                <textarea rows="10" cols="50" id="Vraag"> </textarea>              
     </label> <br>
 
-            <label>
-                  <input id="Knop" type="submit" onclick="testOpKnop()" />
-            </label>
+           
+                <input id="Knop" type="submit" onclick="testOpKnop()" value="Verstuur" > 
+            
 
 
         </form>

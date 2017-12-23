@@ -19,6 +19,7 @@ nav {
 
 }
 
+/* De welkom boodschap op de homepagina*/
 #inleiding {
     text-align: center;
     font-family: 'Aclonica';
@@ -26,8 +27,7 @@ nav {
     font-size: 22px;
 }
 
-
-
+/* textblokje op beschrijving pagina */
 #keukenText {
     margin-left: 25%;
 }
@@ -59,10 +59,7 @@ h1 {
 /*slider*/
 
 .slideshow-container {
-    /* max-width: 70%;*/
-    /* position: relative;*/
     margin-left: 10%;
-    /*margin: auto;*/
     margin-top: 5em;
 }
 
@@ -91,14 +88,14 @@ h1 {
     border-radius: 0 3px 3px 0;
 }
 
-/* Position the "next button" to the right */
+/* de rechter knop */
 
 .next {
     right: 10%;
     border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
+/* De zwarte achtergrond bij de knoppen*/
 
 .prev:hover,
 .next:hover {
@@ -117,11 +114,12 @@ h2 {
     padding-top: 1em;
 }
 
-
+/* tekst beschrijving */
 .beschrijving ul {
     margin-left: 25%;
 }
 
+/* de fotos op de sectie */
 .sectionPagina img {
     max-width: 70%;
     margin-left: 15%;
@@ -133,18 +131,20 @@ h2 {
     margin-right: 25%;
 }
 
-
+/* artikel op prijslijst */
 #prijslijst {
     margin-top: 0em;
-    margin-bottom: 2em;
-    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-top: 5%;
     margin-left: 15%
 }
 
+/* laagseizoen */
 .laagseizoen {
     text-align: center;
 }
 
+/* foto van laagseizoen */
 .laagseizoen img {
     display: block;
     margin-left: auto;
@@ -153,10 +153,12 @@ h2 {
     max-width: 2%;
 }
 
+/* hoogseizoen */
 .hoogseizoen {
     text-align: center;
 }
 
+/* foto hoogseizoen */
 .hoogseizoen img {
     display: block;
     margin-left: auto;
@@ -164,6 +166,7 @@ h2 {
     height: 30px;
 }
 
+/* de sectie op de contact pagina */
 #contact {
     background-color: bisque;
     margin-left: 25%;
@@ -171,6 +174,7 @@ h2 {
     height: 50em;
 }
 
+/* foto van de sectie */
 #contact img {
     margin-left: 20%;
     max-height: 100%;
@@ -179,31 +183,38 @@ h2 {
     margin-bottom: 1em;
 }
 
+/*input field aanpassen */
 #Email {
     margin-left: 10%;
 }
 
+/*input field aanpassen */
 #Onderwerp {
     margin-left: 4.5%;
 }
 
+/*input field aanpassen */
 #Vraag {
     margin-left: 10.5%;
 }
 
+/*Knop van contact pagina */
 #Knop {
     margin-top: 5%;
 }
 
+/* aanpassen van de form op contact pagina */
+#contactform{
+    margin-left: 5%;
+}
 
 
-
+/*aanpassen voor gsm */
 @media only screen and (max-width: 500px) {
     .navigatie {
         font-size: 1em;
         margin-left: 0;
     }
-
 
     .sectionPagina {
         width: 100%;
@@ -219,8 +230,6 @@ h2 {
         margin-top: 30em;
     }
 
-
-
     p {
         margin-left: 0;
     }
@@ -234,7 +243,20 @@ h2 {
     }
 
     #prijslijst {
-        margin-left: 10%
+        margin-left: 10%; 
+    }
+
+    #contact {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #contact img {
+        margin-left: 0;
+    }
+
+    #Email {
+        margin-left: 15.5%;
     }
 
 
