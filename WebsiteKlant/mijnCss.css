@@ -185,7 +185,7 @@ h2 {
 
 /*input field aanpassen */
 #Email {
-    margin-left: 10%;
+    margin-left: 9.5%;
 }
 
 /*input field aanpassen */
@@ -239,7 +239,7 @@ h2 {
     }
 
     #keukenText {
-        margin-left: 15%;
+        margin-left: 16%;
     }
 
     #prijslijst {
@@ -256,7 +256,11 @@ h2 {
     }
 
     #Email {
-        margin-left: 15.5%;
+        margin-left: 17%;
+    }
+    
+    #Vraag {
+       margin-left: 0%;
     }
 
 
