@@ -4,73 +4,75 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* filter: blur(20px); */
+    font-family: Verdana, sans-serif;
+    margin: 0
 }
-
 
 nav {
     background-color: darkgray;
-
 }
 
 .navigatie {
-
     margin-left: 1em;
     padding-left: 1em;
     font-size: 2em;
 
-
 }
+
+#inleiding {
+    text-align: center;
+    font-family: 'Aclonica';
+    color: whitesmoke;
+    font-size: 22px;
+}
+
+
+
+#keukenText {
+    margin-left: 25%;
+}
+
 
 p {
     font-family: 'Aclonica';
     font-size: 22px;
     color: whitesmoke;
     font-weight: bold;
-
+    margin-left: 20%;
 }
 
 h1 {
-    margin-top: 5em;
+    margin-top: 2em;
     text-align: center;
     color: floralwhite;
-    text-decoration: underline;
+    text-decoration: none;
 }
-
-
 
 * {
     box-sizing: border-box
-}
-
-body {
-    font-family: Verdana, sans-serif;
-    margin: 0
 }
 
 .mySlides {
     display: none
 }
 
-/* Slideshow container */
+/*slider*/
 
 .slideshow-container {
-
     /* max-width: 70%;*/
     /* position: relative;*/
     margin-left: 10%;
-
     /*margin: auto;*/
     margin-top: 5em;
 }
 
+/*foto's van de slider */
+
 .slideshow-container img {
     width: 50%;
-    margin-left: 40;
-    position: center;
+    height: 20em;
+    margin-left: 20%;
 }
-
-
 
 /* Next & previous buttons */
 
@@ -92,7 +94,7 @@ body {
 /* Position the "next button" to the right */
 
 .next {
-    right: 0;
+    right: 10%;
     border-radius: 3px 0 0 3px;
 }
 
@@ -104,43 +106,6 @@ body {
 }
 
 
-
-
-/* Fading animation */
-
-.fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-.kamers {
-    max-height: 20em;
-    margin-left: 5em;
-    margin-top: 5em;
-    border-radius: 8px;
-    padding-left: 3%;
-
-}
-
-
-
-#keuken {
-    max-height: 40em;
-    margin-left: 35%;
-    border-radius: 8px;
-}
-
-#extra {
-    position: center;
-    color: white;
-}
-
-#textExtra {
-    list-style-type: none;
-}
-
 h2 {
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     font-size: 50px;
@@ -150,41 +115,53 @@ h2 {
     line-height: 26.4px;
     text-align: center;
     padding-top: 1em;
-
-
-
 }
 
-.beschrijving {
 
-
-    margin-right: 5em;
-    color: black;
-    text-align: center;
-    max-width: 70%;
-    margin-left: 15%;
-
-}
-
-.beschrijving3 ul {
-
+.beschrijving ul {
     margin-left: 25%;
 }
 
-
-
-.beschrijving2 img {
+.sectionPagina img {
     max-width: 70%;
     margin-left: 15%;
-
-
 }
 
-
-.beschrijving2 {
+.sectionPagina {
     background-color: bisque;
     margin-left: 25%;
     margin-right: 25%;
+}
+
+
+#prijslijst {
+    margin-top: 0em;
+    margin-bottom: 2em;
+    padding-top: 2em;
+    margin-left: 15%
+}
+
+.laagseizoen {
+    text-align: center;
+}
+
+.laagseizoen img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+    max-width: 2%;
+}
+
+.hoogseizoen {
+    text-align: center;
+}
+
+.hoogseizoen img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
 }
 
 #contact {
@@ -194,44 +171,72 @@ h2 {
     height: 50em;
 }
 
-#contact label {}
-
 #contact img {
-
-    margin-left: 25%;
+    margin-left: 20%;
     max-height: 100%;
     max-width: 100%;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
-#prijslijst {
-    margin-top: 2em;
-    margin-bottom: 2em;
-    padding-top: 2em;
+#Email {
+    margin-left: 10%;
 }
 
-.laagseizoen {
-   text-align: center;
+#Onderwerp {
+    margin-left: 4.5%;
 }
 
-.laagseizoen img{
-    
-  display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 30px; 
-    max-width: 2%;
-   
+#Vraag {
+    margin-left: 10.5%;
+}
+
+#Knop {
+    margin-top: 5%;
 }
 
 
-.hoogseizoen {
-   text-align: center;
-}
-.hoogseizoen img{
-    
-     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 30px; 
-    
+
+
+@media only screen and (max-width: 500px) {
+    .navigatie {
+        font-size: 1em;
+        margin-left: 0;
+    }
+
+
+    .sectionPagina {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .prev,
+    .next {
+        margin-top: 30em;
+    }
+
+
+
+    p {
+        margin-left: 0;
+    }
+
+    .beschrijving ul {
+        margin-left: 5%;
+    }
+
+    #keukenText {
+        margin-left: 15%;
+    }
+
+    #prijslijst {
+        margin-left: 10%
+    }
+
+
+
 }
